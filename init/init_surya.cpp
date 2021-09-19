@@ -88,14 +88,14 @@ void vendor_load_properties() {
     std::string mod_device;
 
     if (region == "THAI" || region == "THAI_PA") {
-        model = "M2007J20CT";
+        model = "POCO X3 NFC";
         device = "surya";
     } else {
         if (hwname == "surya") {
-            model = "M2007J20CG";
+            model = "POCO X3 NFC";
             device = "surya";
         } else if (hwname == "karna") {
-            model = "M2007J20CI";
+            model = "POCO X3";
             device = "karna";
         }
     }
