@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spark_surya.mk
+    $(LOCAL_DIR)/ssos_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    spark_surya-userdebug
+    ssos_surya-userdebug
